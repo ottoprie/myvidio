@@ -1,0 +1,34 @@
+{
+  "name": "AIO_IPTV",
+  "version": "2.0.0",
+  "description": "Undeground IPTV Team",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js start"
+  },
+  "bin": {
+    "AIO_IPTV": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Undeground IPTV Team",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ioredis": "^4.28.0",
+    "node-fetch": "^2.6.7",
+    "papaparse": "^5.3.1",
+    "store": "^2.0.12",
+    "xhr2": "^0.2.1",
+    "yargs": "^17.2.1"
+  }
+}
